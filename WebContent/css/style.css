@@ -1,0 +1,211 @@
+@charset "UTF-8";
+@import "reset.css";
+
+* {
+	box-sizing: border-box;
+	font-family: "klavika";
+}
+
+header {
+	width : 100%;
+	min-width : 980px;
+	background: linear-gradient(#4a6bad,#3B5998);
+	color : white;
+	padding-top : 10px;
+	padding-bottom : 20px; 
+}
+header .header-wrraper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+    color : #f2f3f4;
+}
+
+header .header-wrraper .header-title {
+	font-size : 40px;
+	font-weight : 800;
+	
+}
+
+header .header-wrraper .header__form {
+	display : flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+header .header-wrraper .header__form div {
+	margin-right : 10px;
+}
+
+header .header-wrraper form p {
+	font-size : 12px;
+}
+header .header-wrraper form div input {
+	margin: 5px 0;
+	width : 150px;
+}
+
+header .header-wrraper .header__form .button {
+	height :20px;
+	width : 50px;
+	background-color: #4975c6;
+	color : white;
+	font-size : 12px;
+	font-weight : 600;
+	border : none;
+	margin-top : 10px;
+}
+
+.header__form-PW {
+	position: relative;
+}
+.lost {
+	position : absolute;
+	top : 45px;
+	color : #c4d6ff;
+}
+
+main {
+	width : 100%;
+	min-width : 980px;
+	background : linear-gradient(#FEFEFE, #D3D8E8);
+	margin-top : 20px;
+}
+
+.container {
+	margin: 0 auto;
+    width: 980px;
+    height : 600px;
+	display : grid;
+	grid-template-columns : 1.3fr 1fr;
+	grid-gap : 3%;
+}
+
+.container input:not([type="radio"]) {
+	width : 100%;
+	border-radius : 5px;
+	color : #333333;
+	height:40px;
+	margin-bottom : 10px;
+	border : 1px solid #c9cfff;
+	padding-left: 10px;
+	font-size : 18px;
+}
+
+.container .joinForm .joinForm__title p:first-child {
+	font-size : 36px;
+	font-weight : 800;
+	margin-bottom : 10px;
+}
+
+.container .joinForm .joinForm__title p:last-child {
+	font-size : 18px;
+	margin-bottom : 25px;
+}
+
+.container .joinForm .joinForm__name,
+.container .joinForm .submit__wrapper {
+	display :grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap : 3%;
+}
+
+.container .joinForm .joinForm__PW {
+	margin-bottom : 15px;
+}
+
+.container .joinForm .joinForm__birth {
+	margin-bottom : 20px;
+}
+
+.container .joinForm .joinForm__birth p,
+.container .joinForm .joinForm__gender p {
+	color : #7a7a7a ;
+	margin-bottom : 10px;
+	font-weight: 600;
+}
+
+.container .joinForm .joinForm__birth select {
+	font-size : 13px;
+	padding : 4px;
+}
+
+.container .joinForm .joinForm__gender {
+	margin-bottom : 20px;
+}
+
+.container .joinForm .joinForm__gender input {
+	margin-right : 10px;
+}
+
+.container .joinForm .terms {
+	margin-top : 10px;
+	margin-bottom : 20px;
+	font-size : 8px;
+	width : 320px;
+}
+
+.container .joinForm .submit__wrapper button{
+	background : linear-gradient(#7DBE67, #588A44 );
+	font-size: 20px;
+	font-weight: 700;
+	color : white;
+	border : 1px solid #6d6d6d;
+	border-radius : 5px; 
+	margin-bottom : 50px;
+	height : 40px;
+}
+
+.container .joinForm .joinForm__ad {
+	font-size : 12px;
+}
+
+.container .container__pic img {
+	width : auto;
+	height : auto;
+}
+
+.container .container__pic .container__pic-title {
+	margin-top : 40px;
+	width : 450px;
+	height : auto;
+	font-size : 20px;
+	font-weight: 600;
+	color : #2b416d;
+}
+
+
+/* footer */
+
+footer {
+	width : 100%;
+	min-width : 980px;
+}
+
+footer .footer__wrapper {
+	width: 980px;
+	margin : 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	border-bottom : 1px solid #c1c1c1;
+}
+
+footer .footer__wrapper ul {
+	display : flex;
+	flex-direction: row;
+	padding-top : 40px;
+	padding-bottom : 20px;
+}
+
+footer .footer__wrapper ul li {
+	margin-right : 5px;
+	font-size: 12px;
+	
+}
+
+
